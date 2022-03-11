@@ -10,7 +10,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Archivos varios",
       "ColorIndex": -1
+    },
+    "43d6d49d-32bf-4533-ac19-6c70d8caefd3": {
+      "ProjectGuid": "43d6d49d-32bf-4533-ac19-6c70d8caefd3",
+      "DisplayName": "CalendarioDeEventosTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

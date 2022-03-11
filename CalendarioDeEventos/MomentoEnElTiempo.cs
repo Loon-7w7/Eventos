@@ -16,7 +16,7 @@ namespace CalendarioDeEventos
         //    this.configuration = configuration;
         //}
 
-        AccionesFechas acctionfechas = new AccionesFechas();
+        ConvercionesDeFechas acctionfechas = new ConvercionesDeFechas();
         public string DiasRestantesyFaltantes(DateTime FechasDeLosEventos)
         {
 
@@ -39,7 +39,7 @@ namespace CalendarioDeEventos
             int minutos = (int)DiasFT.TotalMinutes;
 
 
-            Devolucion = acctionfechas.convertidorgeneral(minutos);
+            Devolucion = acctionfechas.Convertidorgeneral(minutos);
             return Devolucion;
         }
 

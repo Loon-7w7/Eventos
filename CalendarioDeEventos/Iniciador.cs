@@ -17,8 +17,8 @@ namespace CalendarioDeEventos
 
         LecturaDeFicheros fichero = new LecturaDeFicheros();
         DivizorPorNombresDeEventosYFechas accionesDeArray = new DivizorPorNombresDeEventosYFechas();
-        AccionesFechas accionfechas = new AccionesFechas();
-        AccionesEnPantalla pantalla = new AccionesEnPantalla();
+        ConvercionesDeFechas accionfechas = new ConvercionesDeFechas();
+        ImprecionesEnPantalla pantalla = new ImprecionesEnPantalla();
 
 
         public void arranque(){
@@ -27,7 +27,7 @@ namespace CalendarioDeEventos
 
             string[] FechasDelEvento = accionesDeArray.FechasDelEventos(fichero.LecturaDelFichero(NombreDelarchivo));
             string[] NombresDeLosEventos = accionesDeArray.NombresDeLosEventos(fichero.LecturaDelFichero(NombreDelarchivo));
-            DateTime[] fechasConvertidas = accionfechas.FchasConvercion(FechasDelEvento);
+            DateTime[] fechasConvertidas = accionfechas.StringaFchasConvercion(FechasDelEvento);
 
             pantalla.ImprecionesAPantalla(NombresDeLosEventos, fechasConvertidas);
         }

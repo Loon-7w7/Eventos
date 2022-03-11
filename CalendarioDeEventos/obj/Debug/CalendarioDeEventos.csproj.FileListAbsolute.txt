@@ -85,3 +85,14 @@ A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\M
 A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\System.Collections.Immutable.xml
 A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\System.Reflection.Metadata.xml
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.abstractions.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.runner.reporters.net452.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.runner.utility.net452.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.assert.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.core.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.execution.desktop.dll
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.assert.xml
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.core.xml
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\xunit.execution.desktop.xml
+A:\Programas\programas de c#\CalendarioDeEventos\CalendarioDeEventos\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll

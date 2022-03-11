@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarioDeEventos", "CalendarioDeEventos\CalendarioDeEventos.csproj", "{68B4B818-D90D-420A-AE14-05DA18F969D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarioDeEventosTest", "CalendarioDeEventosTest\CalendarioDeEventosTest.csproj", "{C8046EC3-3C17-4037-B5F2-B7DD64DF3052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68B4B818-D90D-420A-AE14-05DA18F969D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B4B818-D90D-420A-AE14-05DA18F969D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B4B818-D90D-420A-AE14-05DA18F969D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8046EC3-3C17-4037-B5F2-B7DD64DF3052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8046EC3-3C17-4037-B5F2-B7DD64DF3052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8046EC3-3C17-4037-B5F2-B7DD64DF3052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8046EC3-3C17-4037-B5F2-B7DD64DF3052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
