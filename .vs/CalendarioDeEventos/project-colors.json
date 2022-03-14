@@ -15,7 +15,27 @@
       "ProjectGuid": "43d6d49d-32bf-4533-ac19-6c70d8caefd3",
       "DisplayName": "CalendarioDeEventosTests",
       "ColorIndex": 1
+    },
+    "ce33a7b7-c4f5-44b6-bb9e-fd660e0b1caf": {
+      "ProjectGuid": "ce33a7b7-c4f5-44b6-bb9e-fd660e0b1caf",
+      "DisplayName": "CalendarioDeEventosTests1",
+      "ColorIndex": 2
+    },
+    "535cc82f-5b07-42c4-ba8e-af50491498cc": {
+      "ProjectGuid": "535cc82f-5b07-42c4-ba8e-af50491498cc",
+      "DisplayName": "CalendarioDeEventosTest",
+      "ColorIndex": 3
+    },
+    "c8046ec3-3c17-4037-b5f2-b7dd64df3052": {
+      "ProjectGuid": "c8046ec3-3c17-4037-b5f2-b7dd64df3052",
+      "DisplayName": "CalendarioDeEventosTest",
+      "ColorIndex": 4
+    },
+    "fb6ef6f9-3143-4236-9996-0069ae2e5464": {
+      "ProjectGuid": "fb6ef6f9-3143-4236-9996-0069ae2e5464",
+      "DisplayName": "Test",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 6
 }

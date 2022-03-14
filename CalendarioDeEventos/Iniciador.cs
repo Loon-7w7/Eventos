@@ -1,36 +1,49 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+
 
 
 namespace CalendarioDeEventos
 {
-    internal class Iniciador
+    internal class Iniciador :IIniciador
     {
-        private readonly IConfiguration configuration;
-        public Iniciador(IConfiguration configuration) => this.configuration = configuration;
+        private readonly string NombreDelArchivo = "Eventos.txt";
 
-
-
-        LecturaDeFicheros fichero = new LecturaDeFicheros();
-        DivizorPorNombresDeEventosYFechas accionesDeArray = new DivizorPorNombresDeEventosYFechas();
-        ConvercionesDeFechas accionfechas = new ConvercionesDeFechas();
+        readonly LecturaDeFicheros LeeArchivo = new LecturaDeFicheros();
+        ObtenerFechasDelArchivo ObtenFechas = new ObtenerFechasDelArchivo();
+        ObtenerNombresDelArchivo ObtenNombres = new ObtenerNombresDelArchivo();
+        ConvertirdorDeArryStringAArrayDateTime ConverstrinADatetime = new ConvertirdorDeArryStringAArrayDateTime();
         ImprecionesEnPantalla pantalla = new ImprecionesEnPantalla();
 
 
-        public void arranque(){
-            
-            string NombreDelarchivo = configuration["Archivo:NombreDelArchivo"];
+        public void Arranque(){
 
-            string[] FechasDelEvento = accionesDeArray.FechasDelEventos(fichero.LecturaDelFichero(NombreDelarchivo));
-            string[] NombresDeLosEventos = accionesDeArray.NombresDeLosEventos(fichero.LecturaDelFichero(NombreDelarchivo));
-            DateTime[] fechasConvertidas = accionfechas.StringaFchasConvercion(FechasDelEvento);
+            var LineasDelArchivo = LeerArchivo(NombreDelArchivo);
+            var FechasDelEvento = ObtenerFechasDelArchivo(LineasDelArchivo);
+            var NombresDeLosEventos = ObtenerFechasDelArchivo(LineasDelArchivo);
+            var fechasConvertidas = ConveirtirStringADateTime(FechasDelEvento);
 
             pantalla.ImprecionesAPantalla(NombresDeLosEventos, fechasConvertidas);
         }
             
+
+        private string[] LeerArchivo (string NombreDelArchivo)
+        {
+            return LeeArchivo.LecturaDelFichero(NombreDelArchivo);
+        }
+
+        private string[] ObtenerFechasDelArchivo(string[] LineasDelArchivo)
+        {
+            return ObtenFechas.ObtenerFechasDeArchivo(LineasDelArchivo);
+        }
+
+        private string[] ObtenerNombreDeEventosDElArchivo(string[] LineasDelArchivo)
+        {
+            return ObtenNombres.ObtenerNombreDeArchivo(LineasDelArchivo);
+        }
+
+        private DateTime[] ConveirtirStringADateTime(string[] FechasDelEvento)
+        {
+            return ConverstrinADatetime.ConvertirdorDeArryStringAArrayDateTimes(FechasDelEvento);
+        }
     }
 }
